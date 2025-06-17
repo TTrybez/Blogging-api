@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Blogging API
 
 ## Overview
@@ -63,3 +64,7 @@ Contributions are welcome! Please open an issue or submit a pull request for any
 
 ## License
 This project is licensed under the MIT License.
+=======
+# Blogging-api
+AltSchool Examination
+>>>>>>> 164e368f080b719f7c4379b5151fbbf3d3bcd294
