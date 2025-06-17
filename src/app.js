@@ -10,10 +10,10 @@ const app = express();
 app.use(express.json());
 
 // Database connection
-db();
+mongoose.connect(process.env.MONGODB_URI);
 
 // Routes
-app.use('/api/posts', postRoutes());
+app.use('/api/posts', postRoutes);
 
 const PORT = process.env.PORT || 5000;
 
